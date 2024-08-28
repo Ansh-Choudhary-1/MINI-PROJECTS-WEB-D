@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="counter.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+ 
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div id = "input">
+    <input id = "celsius" type = "number" placeholder = "Enter Celsius temperature"><br><br>
+    <button id = "convert">Convert</button></div>
+    <p class = "result" id = "result"></p>
+  </div>
+
+</body>
+<script>
+    var a = document.getElementById('input');
+    var b = document.getElementById('result');
+    var c = document.getElementById('convert')
+    
+    c.addEventListener('click',function(){
+        b.innerHtml = a.value;
+    });
+</script>
+</html>
