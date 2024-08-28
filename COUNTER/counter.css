@@ -1,0 +1,74 @@
+body{
+	background-color: #3b3939;
+}
+.container{
+	width: 260px;
+    height: 260px;
+    background-color: #231d1d;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    border: 1px solid #655d5d;
+    border-radius: 11px;
+
+}
+#count{
+	width: 262px;
+	position: absolute;
+    text-align: center;
+    top: 18%;
+    color: white;
+    font-size: 85px;
+}
+#buttons{
+	width: 100px;
+    position: absolute;
+    left: 9%;
+    top: 61%;
+
+}
+#increase{
+	width: 105px;
+    height: 29px;
+    background-color: #555555;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+div#buttons:hover {
+    transform: scale(1.25);
+}
+#buttons2{
+    width: 100px;
+    position:absolute;
+    left: 51%;
+    top: 61%;
+}
+#decrease{
+    background-color: #555555;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 105px;
+    height: 29px;
+}
+div#buttons2:hover {
+    transform: scale(1.25);
+}
+div#buttons3:hover {
+    transform: scale(1.25);
+}
+#buttons3{
+    width: 100px;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+}
+#reset{
+    background-color: #555555;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 105px;
+    height: 29px;
+}
