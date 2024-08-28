@@ -1,0 +1,262 @@
+#background-image{
+	height: 65vh;
+	background-image: url('macbook_mouse.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin: -10px -10px;
+}
+#Navigation{
+	padding: 8px 0px 0px 0px;
+      text-align: center;
+}
+#Navigation li:hover{
+	text-decoration: underline;
+}
+#logo i:hover{
+	border-style: solid;
+	border-width: 1px;
+	border-color: whitesmoke;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 4px white;
+}
+a{
+	text-decoration: none;
+	color: ghostwhite;
+}
+#Navigation li{
+	display: inline-block;
+	list-style: none;
+	color:white;
+	font-size: 20px;
+	margin: 0px 20px 0px 0px ;
+}
+#a{
+	color:white;
+	font-size:40px;
+	text-align: center;
+}
+#id{
+	color: white;
+}
+#logo{
+	text-align: center;
+}
+#logo i{
+	padding :5px;
+	display: inline-block;
+	color:whitesmoke;
+    margin:0px 40px 0px 0px;
+}
+#pa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#image{
+	box-shadow: 0px 0px 6px 3px white;
+	height:35vh;
+	border-radius: 190px;
+	border-color: white;
+	border-style: solid;
+	width: 258px;
+	
+}
+#about-section{
+	margin:150px;
+	color: grey;
+}
+#about-section p{
+	 display: inline;
+	 color: #2857a4;
+}
+#about-section{
+	font-family: times new roman, serif;
+}
+h1{
+	color: #2857a4;
+	text-align: center;
+}
+#SKILLS div{
+	color: white;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	box-shadow: 10px;
+	background-color:#dadadb; 
+}
+#SKILLS{
+	width: 61%;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap; 
+}
+#work-experience{
+	width: 746px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap; 
+}
+#content{
+	position: relative;
+	width: 313px;
+	font-size: 11px;
+	margin-bottom: 50px;
+	height: auto;
+	text-align: right;
+	overflow-wrap: break-word;
+}
+#content:nth-child(2n){
+	left:57%;
+}
+#h1{
+	color: #2857a4;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#h2{
+	color: #d73d00;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#h3{
+	margin-top: 0px;
+    font-size: 17px;
+    color: #8f8c8c;
+}
+#h4{
+	color: #8f8c8c;
+	font-size:13px;
+	text-align: justify;
+}
+#content img{
+	height: 50px;
+	float: left;
+	margin-top: 22px;
+}
+#timeline-divider{
+	position: absolute;
+	height: 620px;
+}
+#timeline{
+	width: 0px;
+	position: absolute;
+	border-style: dashed;
+	border-color: #98a4ff;
+	height: 620px;
+	left:50%;
+	border-width: 1px;
+	padding: 0px;
+}
+#timeline2{
+	width: 0px;
+	position: absolute;
+	border-style: dashed;
+	border-color: #98a4ff;
+	top: 51px;
+    height: 620px;
+    left: 50.1%;
+	border-width: 1px;
+	padding: 0px;
+}
+#plane{
+	transform: rotate(90deg) translate(6px, 10px);
+	position: sticky;
+    left: 40%;
+    color: #2857a4;
+    top :20%;
+    z-index: 2;
+}
+#truck{
+	transform: rotate(90deg) translate(7px,9px);
+	top:20%;
+	z-index: 2;
+	position: sticky;	
+}
+#dots{
+	position: absolute;
+	border-radius:7px;
+	border-style: dotted;
+	border-color: #b5b4b4;
+	border-width: 4px;
+	top: 25%;
+    left: 118.5%;
+    z-index: 1;
+}
+#dots1{
+	position: absolute;
+	border-radius:7px;
+	border-style: dotted;
+	border-color: #b5b4b4;
+	border-width: 4px;
+	top: 26%;
+    right: 115.2%;
+    z-index: 1;
+
+}
+#contact{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	width:40vw;
+	margin-bottom: 30px;
+	height: 40px;
+	background: transparent;
+	border-width: 0px 0px 2px 0px;
+	border-color: ghostwhite;
+	margin-left: 50px;
+	color: whitesmoke;
+}
+button{
+	margin-left: 16vw;
+	background: transparent;
+	border-width: 2px 2px 2px 2px;
+	border-color: ghostwhite;
+	color: ghostwhite;
+	width: 190px;
+	height: 40px;
+}
+#portfolio{
+	width: 800px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+#port{
+	width: 200px;
+	height: 200px;
+	margin-right:40px;
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width:800px){
+	#work-experience{
+		width:70%;
+	}
+	#dots{
+		left:-17%;
+    }
+    #content:nth-child(2n){
+	left:15%;
+    }
+    #content{
+    	left: 15%;
+    }
+    #timeline{
+    	left:19%;
+
+    }
+}
