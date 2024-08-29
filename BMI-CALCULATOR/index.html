@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -10,27 +9,29 @@
 	<div id ="bmiCalculator">
 		<h2>BMI Calculator</h2>
 		<div class = "weight-input">
-			<label for = "weight">Weight(kg):</label><br><br>
-			<input type = "number" id = "weight" placeholder="Weight in kilograms"><br><br>
+			<label for = "weight">weight (kg):</label><br><br>
+			<input type = "number" id = "weight" placeholder="weight in kilograms"><br><br>
 		</div>
 		<div class = "height-input">
-			<label for = "height">Height(cm):</label><br><br>
-			<input type = "number" id = "height" placeholder = "Height in centimeters"><br><br>
+			<label for = "height">height (cm):</label><br><br>
+			<input type = "number" id = "height" placeholder = "height in centimeters"><br><br>
 		</div>
-		<button id = "btn">Calculate BMI</button><br><br>
+		<button id = "btn" onclick="calculatebmi()">Calculate BMI</button><br><br>
 		<div id = "result"></div>
 	</div>
-
-</body>
 <script type="text/javascript">
 	
-	document.getElementById("btn").addEventListener('click',function calculateBMI(){
+	function calculatebmi(){ 
 		var a = document.getElementById("weight").value;
 		var b = document.getElementById("height").value;
 		var d = document.getElementById("result");
-		var c = a/b/b;
-		d.innerText = c;
-
-	});
+    if(weight===""||height===""){}
+    else{
+        var e = b/100;
+		var c = a/(e*e);
+    var rounded = c.toFixed(2);
+		d.textContent = rounded;
+	}};
 </script>
+</body>
 </html>
